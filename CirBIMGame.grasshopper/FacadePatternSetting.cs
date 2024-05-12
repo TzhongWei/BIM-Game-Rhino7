@@ -93,7 +93,7 @@ namespace CirBIMGame.grasshopper
 
 
             var Data = CirBIMGame.JsonFormat.Set(Index, Result);
-            DA.SetData("FacadeData", Data.ToJson());
+            DA.SetData("FacadeSetting", Data.ToJson());
         }
 
         /// <summary>

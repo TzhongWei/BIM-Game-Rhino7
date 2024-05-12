@@ -34,7 +34,7 @@ namespace CirBIMGame.grasshopper
         {
             pManager.AddBrepParameter("Building", "B", "The building mass", GH_ParamAccess.item);
             pManager.AddBrepParameter("Facades", "Fs", "The facade of the building", GH_ParamAccess.list);
-            pManager.AddTextParameter("FacadeData", "FcD", "The Facade data of the building mass", GH_ParamAccess.list);
+            pManager.AddTextParameter("FacadeSetting", "FcS", "The Facade data of the building mass", GH_ParamAccess.list);
         }
 
         /// <summary>
@@ -51,7 +51,7 @@ namespace CirBIMGame.grasshopper
             var WallList = Walls(union);
             var FacadeData_1 = new FacadeSetting(WallList);
             FacadeData_1.Setting(DataSetting);
-            DA.SetDataList("FacadeData", FacadeData_1.Print());
+            DA.SetDataList("FacadeSetting", FacadeData_1.Print());
             DA.SetDataList("Facades", WallList);
             DA.SetData("Building", union);
         }
