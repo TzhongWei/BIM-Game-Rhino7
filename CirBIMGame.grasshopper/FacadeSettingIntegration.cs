@@ -34,7 +34,7 @@ namespace CirBIMGame.grasshopper
         {
             pManager.AddBrepParameter("Building", "B", "The building mass", GH_ParamAccess.item);
             pManager.AddBrepParameter("Facades", "Fs", "The facade of the building", GH_ParamAccess.list);
-            pManager.AddTextParameter("FacadeSetting", "FcS", "The Facade data of the building mass", GH_ParamAccess.list);
+            pManager.AddTextParameter("FacadeSetting", "FcD", "The Facade data of the building mass", GH_ParamAccess.list);
         }
 
         /// <summary>

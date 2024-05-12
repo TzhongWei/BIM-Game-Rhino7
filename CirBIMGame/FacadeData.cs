@@ -13,7 +13,7 @@ namespace CirBIMGame
         public string ToJson()
             => (new JsonFormat(this)).ToJson();
 
-        public static double UnitSize = 2.5;
+        public static double UnitSize = 250;
         private Brep Face;
         public double Area => Face.GetArea();
         public Dictionary<string, double> _PatternRate { get; private set; }
