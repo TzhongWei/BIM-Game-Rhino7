@@ -1,0 +1,17 @@
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\CirBIMGame.grasshopper.gha
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\CirBIMGame.grasshopper.pdb
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\Newtonsoft.Json.dll
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\Eto.dll
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\Rhino.UI.dll
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\RhinoCommon.dll
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\CirBIMGame.dll
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\CirBIMGame.dll.config
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.csproj.AssemblyReference.cache
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.GeneratedMSBuildEditorConfig.editorconfig
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.AssemblyInfoInputs.cache
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.AssemblyInfo.cs
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.csproj.CoreCompileInputs.cache
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.csproj.CopyComplete
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.gha
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\obj\Debug\net48\CirBIMGame.grasshopper.pdb
+D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame.grasshopper\bin\Debug\net48\CirBIMGame.pdb

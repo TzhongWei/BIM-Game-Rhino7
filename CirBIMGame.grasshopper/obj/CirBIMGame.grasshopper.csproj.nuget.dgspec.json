@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame.grasshopper\\CirBIMGame.grasshopper.csproj": {}
+  },
+  "projects": {
+    "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame.grasshopper\\CirBIMGame.grasshopper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame.grasshopper\\CirBIMGame.grasshopper.csproj",
+        "projectName": "CirBIMGame.grasshopper",
+        "projectPath": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame.grasshopper\\CirBIMGame.grasshopper.csproj",
+        "packagesPath": "C:\\Users\\Username\\.nuget\\packages\\",
+        "outputPath": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame.grasshopper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Username\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame\\CirBIMGame.csproj": {
+                "projectPath": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame\\CirBIMGame.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Grasshopper": {
+              "target": "Package",
+              "version": "[7.0.20314.3001, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame\\CirBIMGame.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame\\CirBIMGame.csproj",
+        "projectName": "CirBIMGame",
+        "projectPath": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame\\CirBIMGame.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    }
+  }
+}

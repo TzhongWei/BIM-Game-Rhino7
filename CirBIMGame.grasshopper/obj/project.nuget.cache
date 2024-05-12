@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ATiuKTPkh8z2pSDL9q8JKwjQCKICHeN33bQGgxRntjqVSNTWR7r7WL/otPX0Mnb82BGTC7XGmCOOsdlhBvPejQ==",
+  "success": true,
+  "projectFilePath": "D:\\研究所\\BIM\\bim game\\CirBIMGame\\CirBIMGame.grasshopper\\CirBIMGame.grasshopper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Username\\.nuget\\packages\\grasshopper\\7.0.20314.3001\\grasshopper.7.0.20314.3001.nupkg.sha512",
+    "C:\\Users\\Username\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Username\\.nuget\\packages\\rhinocommon\\7.0.20314.3001\\rhinocommon.7.0.20314.3001.nupkg.sha512"
+  ],
+  "logs": []
+}
