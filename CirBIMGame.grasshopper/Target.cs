@@ -22,26 +22,12 @@ namespace CirBIMGame.grasshopper
               "CirBIMGame", "Util")
         {
         }
-        public override void AddedToDocument(GH_Document document)
-        {
-            base.AddedToDocument(document);
-            int[] stringID = new int[] { 0 };
-
-            Param_Boolean in0Str = Params.Input[stringID[0]] as Param_Boolean;
-            if (in0Str == null || in0Str.SourceCount > 0 || in0Str.PersistentDataCount > 0) return;
-            int x = (int)in0Str.Attributes.Pivot.X - 250;
-            int y = (int)in0Str.Attributes.Pivot.Y - 10;
-            GH_ButtonObject gH_ButtonObject = new GH_ButtonObject();
-            gH_ButtonObject.Attributes.Pivot = new System.Drawing.PointF(x, y);
-            document.AddObject(gH_ButtonObject, false);
-            in0Str.AddSource(gH_ButtonObject);
-        }
         /// <summary>
         /// Registers all the input parameters for this component.
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
-            pManager.AddBooleanParameter("Find", "F", "Find the input geometries", GH_ParamAccess.item);
+            pManager.AddBooleanParameter("Find", "F", "Find the input geometries", GH_ParamAccess.item, false);
             pManager.AddGeometryParameter("GeometryBases", "G", "The geometries need to be targeted", GH_ParamAccess.list);
         }
 
