@@ -51,6 +51,8 @@ namespace CirBIMGame.grasshopper
             var WallList = Walls(union);
             var FacadeData_1 = new FacadeSetting(WallList);
             FacadeData_1.Setting(DataSetting);
+
+
             DA.SetDataList("FacadeSetting", FacadeData_1.Print());
             DA.SetDataList("Facades", WallList);
             DA.SetData("Building", union);

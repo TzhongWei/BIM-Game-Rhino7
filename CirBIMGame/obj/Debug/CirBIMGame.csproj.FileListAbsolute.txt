@@ -52,4 +52,3 @@ D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame\bin\Debug\System.Text.Encodings.
 D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame\bin\Debug\System.ValueTuple.xml
 D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame\obj\Debug\CirBIMGame.csproj.CopyComplete
-D:\研究所\BIM\bim game\CirBIMGame\CirBIMGame\obj\Debug\CirBIMGame.csproj.AssemblyReference.cache

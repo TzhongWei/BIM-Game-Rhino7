@@ -26,6 +26,7 @@ namespace CirBIMGame.grasshopper
             pManager.AddIntegerParameter("Index", "I",
                 "Please provide index to assign the settings for your building.", GH_ParamAccess.item, 0);
             pManager.AddBrepParameter("Face", "F", "The face from the mass", GH_ParamAccess.item);
+
             pManager.AddBrepParameter("VoidArea", "V", "The opening area setting for the building facade", GH_ParamAccess.list);
             pManager.AddBrepParameter("BlueArea", "B", "The blue brick area setting for the building facade", GH_ParamAccess.list);
             pManager.AddBrepParameter("YellowArea", "Y", "The yellow brick area setting for the building facade", GH_ParamAccess.list);
@@ -70,6 +71,7 @@ namespace CirBIMGame.grasshopper
             Brep Face = new Brep();
             DA.GetData("Index", ref Index);
             DA.GetData("Face", ref Face);
+
             DA.GetDataList("VoidArea", VoidArea);
             DA.GetDataList("BlueArea", BlueArea);
             DA.GetDataList("YellowArea", YellowArea);
@@ -108,7 +110,7 @@ namespace CirBIMGame.grasshopper
             }
 
             var Data = JsonFormat.Set(Index, Result);
-            DA.SetData("FacadeData", Data.ToJson());
+            DA.SetData("FacadeSetting", Data.ToJson());
         }
 
         /// <summary>
