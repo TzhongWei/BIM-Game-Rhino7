@@ -26,10 +26,10 @@ namespace CirBIMGame.grasshopper
             pManager.AddIntegerParameter("Index", "I",
                 "Please provide index to assign the settings for your building.", GH_ParamAccess.item, 0);
             pManager.AddBrepParameter("Face", "F", "The face from the mass", GH_ParamAccess.item);
-            pManager.AddNumberParameter("VoidArea", "V", "The opening area setting for the building facade", GH_ParamAccess.list);
-            pManager.AddNumberParameter("BlueArea", "B", "The blue brick area setting for the building facade", GH_ParamAccess.list);
-            pManager.AddNumberParameter("YellowArea", "Y", "The yellow brick area setting for the building facade", GH_ParamAccess.list);
-            pManager.AddNumberParameter("NormalArea", "N", "The white brick area setting for the building facade", GH_ParamAccess.list);
+            pManager.AddBrepParameter("VoidArea", "V", "The opening area setting for the building facade", GH_ParamAccess.list);
+            pManager.AddBrepParameter("BlueArea", "B", "The blue brick area setting for the building facade", GH_ParamAccess.list);
+            pManager.AddBrepParameter("YellowArea", "Y", "The yellow brick area setting for the building facade", GH_ParamAccess.list);
+            pManager.AddBrepParameter("NormalArea", "N", "The white brick area setting for the building facade", GH_ParamAccess.list);
             pManager[2].Optional = true;
             pManager[3].Optional = true;
             pManager[4].Optional = true;
